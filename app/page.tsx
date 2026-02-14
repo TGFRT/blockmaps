@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Message, LatLng, ConnectionStatus } from './types';
+import { Message, LatLng, ConnectionStatus } from '../types';
 import { getCurrentLocation } from '../utils/geolocation';
 import { MessageBubble } from '../components/MessageBubble';
 
