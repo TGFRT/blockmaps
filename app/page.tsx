@@ -1,4 +1,7 @@
-// Version: 1.0.2 - Fixed imports
+"use client";
+
+import React, { useState, useEffect, useRef } from 'react';
+// Version: 1.0.3 - Restored use client and correctly fixed imports
 import { Message, LatLng, ConnectionStatus } from '../types';
 import { getCurrentLocation } from '../utils/geolocation';
 import { MessageBubble } from '../components/MessageBubble';
