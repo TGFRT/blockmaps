@@ -1,0 +1,7 @@
+{
+  "name": "GeoGuide Chat",
+  "description": "A smart chat assistant grounded in Google Maps data. Ask about places, directions, and local recommendations.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

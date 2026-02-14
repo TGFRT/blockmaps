@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --google-blue: #4285F4;
+  --google-red: #EA4335;
+  --google-yellow: #FBBC05;
+  --google-green: #34A853;
+}
+
+body {
+  @apply text-slate-900 bg-slate-50;
+}
+
+/* Custom classes for the Google-like feel */
+.bg-google-blue { background-color: var(--google-blue); }
+.text-google-blue { color: var(--google-blue); }
+.border-google-blue { border-color: var(--google-blue); }
+
+.bg-google-red { background-color: var(--google-red); }
+.text-google-red { color: var(--google-red); }
+
+.bg-google-yellow { background-color: var(--google-yellow); }
+.text-google-yellow { color: var(--google-yellow); }
+
+.bg-google-green { background-color: var(--google-green); }
+.text-google-green { color: var(--google-green); }
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors;
+}
