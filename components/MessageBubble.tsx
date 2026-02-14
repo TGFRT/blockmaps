@@ -1,6 +1,6 @@
 import React from 'react';
-import { Message } from '../types';
-import { MapSourceCard } from './MapSourceCard';
+import { Message } from '@/types';
+import { MapSourceCard } from '@/components/MapSourceCard';
 
 interface MessageBubbleProps {
     message: Message;
